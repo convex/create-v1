@@ -423,7 +423,7 @@ async function createNewProject(
         // If setup-config.json doesn't exist, proceed with cloning
         await new Promise<void>((resolve, reject) => {
           exec(
-            `bunx tiged --disable-cache get-convex/v1#${branch} ${projectDir}`,
+            `bunx tiged --disable-cache convex/v1#${branch} ${projectDir}`,
             (error: ExecException | null) => {
               if (error) reject(error);
               else resolve();
