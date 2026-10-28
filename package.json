@@ -3,11 +3,11 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/get-convex/create-v1.git"
+    "url": "git+https://github.com/convex/create-v1.git"
   },
   "bugs": {
     "email": "support@convex.dev",
-    "url": "https://github.com/get-convex/create-v1/issues"
+    "url": "https://github.com/convex/create-v1/issues"
   },
   "version": "1.1.11",
   "description": "CLI tool to create a new v1 project",
